@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google-signin-client_id" content="130387202707-9utg53mjof82qfnns8hrmptstvi3d0ds.apps.googleusercontent.com">
+  <title>Weather Hacktiv</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div id="header">
+    <div id="logo">
+      <img src="images/cloudy.png">
+      <h1>Weather App</h1>
+    </div>
+    <div id="user-signin">
+      <p>Hello <b>Josprima</b> </p>
+      <a href="#">Logout</a>
+    </div>
+  </div>
+
+  <div id="detail-container">
+    <div id="detail">
+      <div id="detail-close">
+        x
+      </div>
+    </div>
+  </div>
+
+  <div id="content-container">
+
+    <form id="search-box">
+      <input type="text" placeholder="Search weather in a city...">
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="content">
+      <div id="weather">
+        <img src="images/flash-1455285_1280.jpg">
+        <h1>Jakarta, ID</h1>
+        <span id="temperature">
+          <span>35</span>
+          <span>o</span>
+          <span>C</span>
+        </span>
+        <p>Few cloud</p>
+
+        <div id="show-detail">
+          show-detail
+        </div>
+      </div>
+
+      <div id="air-quality">
+        
+      </div>
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
